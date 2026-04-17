@@ -29,10 +29,10 @@ No pre-existing offset databases were used — all addresses were found manually
 ### Borderlands 3
 | Value | Type | Notes |
 |---|---|---|
-| Player Health | Float | Located via decreased value scan + write breakpoint |
-| Player Shield | Float | Separate struct from health, found via pointer chain |
+| Player Health | Float | Located via decreased value scan |
+| Player Shield | Float | Located via decreased value scan |
 | Ammunition | Int/Float | Per-weapon ammo counter, offset varies by weapon slot |
-| Player Position X/Y/Z | Float | World-space coordinates, used for fly hack research |
+| Player Position X/Y/Z | Float | World-space coordinates, used for fly hack and ESP research |
 | Pitch / Yaw (camera angles) | Float | View angles — basis for aimbot angle calculation |
 
 ### Assault Cube
